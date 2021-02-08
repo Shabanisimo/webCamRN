@@ -11,7 +11,11 @@ export const MainStack = () => {
   return (
     <Stack.Navigator>
       <Stack.Screen name="CamerasList" component={CamerasList} />
-      <Stack.Screen name="CameraScreen" component={CameraScreen}  />
+      <Stack.Screen
+        options={{ gestureEnabled: false }}
+        name="CameraScreen"
+        component={CameraScreen}
+      />
     </Stack.Navigator>
   );
 };

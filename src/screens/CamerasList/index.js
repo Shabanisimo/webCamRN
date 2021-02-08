@@ -1,5 +1,5 @@
-import { useNavigation } from '@react-navigation/native';
 import React, { useCallback, useContext, useEffect } from 'react';
+import { useNavigation } from '@react-navigation/native';
 import { View, FlatList } from 'react-native';
 import { CameraItem } from '../../components/CameraItem';
 import { CamerasContext } from '../../providers/CamerasProvider';
